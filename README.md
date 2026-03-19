@@ -10,7 +10,7 @@ A Simple modern, responsive personal website showcasing professional journey.
 
 ## 🚀 Live Demo
 
-Visit the live website: [Site](https://github.com/4bharathk/base-portfolio)
+Visit the live website: [Site](https://4bharathk.github.io/base-portfolio/)
 
 ## 📁 Project Structure
 
