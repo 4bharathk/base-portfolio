@@ -5,15 +5,12 @@ A Simple modern, responsive personal website showcasing professional journey.
 ## 🌟 Features
 
 - **Responsive Design** - Works perfectly on all devices
-- **Social Media Integration** - Live follower counts and direct links
-- **Contact Form** - Functional contact form with email integration
 - **Modern Animations** - Smooth transitions and interactive elements
 - **Professional Layout** - Clean, modern design with gradient themes
-- **CI/CD Pipeline** - Automated deployment to AWS S3 using GitHub Actions
 
 ## 🚀 Live Demo
 
-Visit the live website: [https://abc.in](https://abc.in)
+Visit the live website: [Site](https://github.com/4bharathk/base-portfolio)
 
 ## 📁 Project Structure
 
@@ -51,7 +48,7 @@ Visit the live website: [https://abc.in](https://abc.in)
 - **Font Awesome** - Icons
 - **Google Fonts** - Typography (Inter font family)
 - **GitHub Actions** - CI/CD automation
-- **AWS S3** - Static website hosting
+
 
 ## 📱 Browser Support
 
@@ -76,5 +73,3 @@ Push to Github and setup github pages
 
 This project is open source and available under the [MIT License](LICENSE).
 
-# base-portfolio
-A base portfolio 
