@@ -19,15 +19,7 @@ Visit the live website: [Site](https://4bharathk.github.io/base-portfolio/)
 ├── styles.css              # CSS styles and animations
 ├── script.js               # JavaScript functionality
 ├── profile-picture.jpg     # Profile image
-├── .github/
-│   └── workflows/
-│       └── deploy.yml     # GitHub Actions CI/CD pipeline
-├── speaking-events/        # Speaking events data
-│   ├── README.md          # Instructions for adding events
-│   ├── IEEE-NextGen-Summit-2025/
-│   │   ├── event.json     # Event details
-│   │   └── *.jpg          # Event images
-│   └── [other-events]/
+├── assets/                 # Static images 
 └── README.md              # This file
 ```
 
@@ -47,14 +39,13 @@ Visit the live website: [Site](https://4bharathk.github.io/base-portfolio/)
 - **JavaScript (ES6+)** - Dynamic functionality and interactions
 - **Font Awesome** - Icons
 - **Google Fonts** - Typography (Inter font family)
-- **GitHub Actions** - CI/CD automation
+
 
 
 ## 📱 Browser Support
 
 - Chrome (recommended)
 - Firefox
-- Safari
 - Edge
 - Mobile browsers (iOS Safari, Chrome Mobile)
 
