@@ -1,6 +1,6 @@
-# BHARATH K - Personal Website
+# BHARATH K - Portfolio
 
-A Simple modern, responsive personal website showcasing professional journey.
+A Simple modern, responsive portfolio showcasing.
 
 ## 🌟 Features
 
