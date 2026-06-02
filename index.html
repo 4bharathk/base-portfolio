@@ -4,21 +4,38 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>
-    Bharath.K - Portfolio
-  </title>
+  <title>Bharath.K - Portfolio</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="A Seasoned Senior Software Engineer with 12+ years Java and 5+ years of AWS cloud expertise, specializing in end-to-end enterprise application development." />
+  <meta name="keywords" content="Bharath Komarabatinini, Bharath K, Java Developer, AWS Cloud Engineer, DevOps, Terraform, Senior Software Engineer, Portfolio" />
+  <meta name="author" content="Bharath Komarabatinini" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://4bharathk.github.io/base-portfolio/" />
+  <meta property="og:title" content="Bharath.K - Senior Software Engineer Portfolio" />
+  <meta property="og:description" content="A Seasoned Senior Software Engineer with 12+ years Java and 5+ years of AWS cloud expertise, specializing in end-to-end enterprise application development." />
+  <meta property="og:image" content="assets/images/profile-photo.png" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://4bharathk.github.io/base-portfolio/" />
+  <meta property="twitter:title" content="Bharath.K - Senior Software Engineer Portfolio" />
+  <meta property="twitter:description" content="A Seasoned Senior Software Engineer with 12+ years Java and 5+ years of AWS cloud expertise, specializing in end-to-end enterprise application development." />
+  <meta property="twitter:image" content="assets/images/profile-photo.png" />
+
   <link rel="stylesheet" href="styles.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-  <link rel="icon" type="image/x-icon" href="assets/bkfavico.png" width=32px>
+  <link rel="icon" type="image/x-icon" href="assets/bkfavico.png" width="32px">
 </head>
 
 <body>
   <!-- Navigation -->
   <nav class="navbar" id="navbar">
     <div class="nav-container">
-
-       <span class="logo-text">BHARATH KOMARABATINI</span>
+      <span class="logo-text" id="navLogo">Portfolio</span>
       <ul class="nav-menu" id="nav-menu">
         <li class="nav-item">
           <a href="#home" class="nav-link">Home</a>
@@ -30,11 +47,10 @@
           <a href="#projects" class="nav-link">Projects</a>
         </li>
         <li class="nav-item">
-          <a href="https://dev.to/kbharath/gist-of-sslmtls-1bdk" class="nav-link" target="_blank">Blogs</a>
+          <a href="#blogs" class="nav-link">Blogs</a>
         </li>
         <li class="nav-item">
           <a href="#contact" class="nav-link">Contact</a>
-
         </li>
       </ul>
       <div class="hamburger" id="hamburger">
@@ -45,150 +61,176 @@
     </div>
   </nav>
 
-  <button id="btnscrollToTop" >
-      <i class="fas fa-arrow-up"></i>
+  <button id="btnscrollToTop">
+    <i class="fas fa-arrow-up"> U p</i>
   </button>
 
-  <!-- Hero Section -->
-  <section id="home" class="hero">
-    <div class="hero-container">
-      <div class="hero-content">
-        <div class="hero-text">
-          <img src="assets/images/profile-photo.png" alt="Bharath K" class="profile-image" />
-          <!-- <div class="hero-buttons">
-                  <a href="#contact" class="btn btn-secondary">
-                    <i class="fas fa-envelope"></i> Get In Touch
-                  </a>
-            </div> -->
-        </div>
-
-        <p class="hero-description">
-
-          A Seasoned Senior Software Engineer with 12+ years Java and 5+ years of AWS cloud expertise,
-          specializing in end-to-end enterprise application development. <br><br>
-          Proven record in delivering robust, secure, scalable cloud-native applications through
-          full lifecycle ownership (build, test, deploy, maintain, operate).<br><br>
-          Experienced in utilizing DevOps and Infrastructure as Code (IaC) to align applications with client-specific
-          practices, architectural guidelines, ensuring long-term scalability and maintainability.
-          <br><br>
-          Self-driven professional with open mindset and curiosity for new technologies, delivering secure, scalable
-          solutions across digital and cloud domains.
-
-
-        <div class="certificates">
-          <img src="assets/certificates/awssassociatearchitect.png" alt="spring" width="150" height="150" />
-          <img src="assets/certificates/aws-well-architected.png" alt="spring" width="150" height="150" />
-          <img src="assets/certificates/awseksbadge.png" alt="spring" width="150" height="150" />
-          <img src="assets/certificates/awscloudpractitioner.png" alt="spring" width="150" height="150" />
-        </div>
-      </div>
-    </div>
-
-  </section>
-
-  <!-- Skills Section -->
-  <section id="skills" class="skills">
-    <div class="container">
-      <div class="skills-topics">
-        <h3 class="section-title">SKILLS</h3>
-        <div class="topics-grid">
-          <div class="topic-card">
-            <i class="fas fa-code"></i>
-            <h4>Java, Python</h4>
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <img src="assets/images/profile-photo.png" alt="Bharath K" class="profile-image" id="heroProfileImg" />
+            <h1 class="logo-text" id="heroTitle" style="font-size: 2.2rem; margin-top: 1.5rem; margin-bottom: 0.5rem; display: block; text-align: center;">BHARATH KOMARABATINI</h1>
+            <p class="logo-text" id="heroSubtitle" style="font-size: 1.1rem; text-align: center; opacity: 0.9; font-weight: 500; letter-spacing: 0.5px;">Senior Software Engineer</p>
           </div>
-          <div class="topic-card">
-            <i class="fab fa-aws"></i>
-            <h4>IAM, Lambda, EKS, Networking, CloudWatch</h4>
-          </div>
-          <div class="topic-card">
-            <i class="fa fa-database"></i>
-            <h4>PostgreSQL , DynamoDB, MongoDB</h4>
-          </div>
-          <div class="topic-card">
-            <img src="assets/icons/devops.png" alt="" width="40" height="40" />
-            <h4>GitLab CI, GitHub Actions, Terraform, AWS Cloud Formation</h4>
-          </div>
-          <div class="topic-card">
-            <i class="fas fa-key"></i>
-            <h4>OAuth 2.0 , mTLS</h4>
-          </div>
-          <div class="topic-card">
-            <img src="assets/icons/uiIcon.png" alt="" width="50" height="50" />
-            <h4>HTML, CSS, React</h4>
+
+          <p class="hero-description" id="heroDesc">
+            A Seasoned Senior Software Engineer with 12+ years Java and 5+ years of AWS cloud expertise,
+            specializing in end-to-end enterprise application development. <br><br>
+            Proven record in delivering robust, secure, scalable cloud-native applications through
+            full lifecycle ownership (build, test, deploy, maintain, operate).<br><br>
+            Experienced in utilizing DevOps and Infrastructure as Code (IaC) to align applications with client-specific
+            practices, architectural guidelines, ensuring long-term scalability and maintainability.
+            <br><br>
+            Self-driven professional with open mindset and curiosity for new technologies, delivering secure, scalable
+            solutions across digital and cloud domains.
+          </p>
+
+          <div class="certificates" id="certificatesContainer">
+            <img src="assets/certificates/awssassociatearchitect.png" alt="AWS Certified Solutions Architect – Associate" width="150" height="150" />
+            <img src="assets/certificates/aws-well-architected.png" alt="AWS Well-Architected Proficient" width="150" height="150" />
+            <img src="assets/certificates/awseksbadge.png" alt="AWS Elastic Kubernetes Service (EKS)" width="150" height="150" />
+            <img src="assets/certificates/awscloudpractitioner.png" alt="AWS Certified Cloud Practitioner" width="150" height="150" />
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Projects Section -->
-  <section id="projects" class="projects">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">Hobby Projects</h2>
-      </div>
-      <div class="project">
-        <div class="project-card">
-          <div class="project-info">
-            <h3>Java & SpringBoot</h3>
-            <p></p>
-            <a href="" target="_blank" class="social-link-btn">
-              <i class="fas fa-external-link-alt"></i> Congestion Tax Portal
-            </a>
-          </div>
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="section-header">
+        <h2 class="section-title">SKILLS</h2>
         </div>
-
-        <div class="project-card">
-          <div class="project-info">
-            <h3>Python & AI</h3>
-            <p></p>
-            <a href="https://myapps-catalogue.streamlit.app/" target="_blank" class="social-link-btn">
-              <i class="fas fa-external-link-alt"></i> ChatBot
-            </a>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="project-info">
-            <h3>Html,CSS,ReactJS</h3>
-            <p></p>
-            <a href="https://4bharathk.github.io/base-portfolio/" target="_blank" class="social-link-btn">
-              <i class="fas fa-external-link-alt"></i> Portfolio
-            </a>
-          </div>
-        </div>
-        <div class="project-card">
-          <div class="project-info">
-            <h3>AWS</h3>
-            <p></p>
-            <a href="" target="_blank" class="social-link-btn">
-              <i class="fas fa-external-link-alt"></i> AWS Serverless
-            </a>
+        <div class="skills-topics">  
+          <div class="topics-grid" id="skillsGrid">
+            <div class="topic-card">
+              <i class="fas fa-code"></i>
+              <h4>Java, Python</h4>
+            </div>
+            <div class="topic-card">
+              <i class="fab fa-aws"></i>
+              <h4>IAM, Lambda, EKS, Networking, CloudWatch</h4>
+            </div>
+            <div class="topic-card">
+              <i class="fa fa-database"></i>
+              <h4>PostgreSQL , DynamoDB, MongoDB</h4>
+            </div>
+            <div class="topic-card">
+              <img src="assets/icons/devops.png" alt="" width="40" height="40" />
+              <h4>GitLab CI, GitHub Actions, Terraform, AWS Cloud Formation</h4>
+            </div>
+            <div class="topic-card">
+              <i class="fas fa-key"></i>
+              <h4>OAuth 2.0 , mTLS</h4>
+            </div>
+            <div class="topic-card">
+              <img src="assets/icons/uiIcon.png" alt="" width="50" height="50" />
+              <h4>HTML, CSS, React</h4>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Hobby Projects</h2>
+        </div>
+        <div class="project" id="projectsGrid">
+          <div class="project-card">
+            <div class="project-info">
+              <h3>Java & SpringBoot</h3>
+              <p>Enterprise grade scalable calculation engine to compute congestion tax based on vehicle types and timing schedules.</p>
+              <a href="" target="_blank" class="social-link-btn">
+                <i class="fas fa-external-link-alt"></i> Congestion Tax Portal
+              </a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-info">
+              <h3>Python & AI</h3>
+              <p>Dynamic LLM-powered catalogue assistant with chat interface built using Streamlit.</p>
+              <a href="https://myapps-catalogue.streamlit.app/" target="_blank" class="social-link-btn">
+                <i class="fas fa-external-link-alt"></i> ChatBot
+              </a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-info">
+              <h3>Html,CSS,ReactJS</h3>
+              <p>Fully optimized, modern, responsive portfolio designed from scratch with premium aesthetics.</p>
+              <a href="https://4bharathk.github.io/base-portfolio/" target="_blank" class="social-link-btn">
+                <i class="fas fa-external-link-alt"></i> Portfolio
+              </a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-info">
+              <h3>AWS</h3>
+              <p>Serverless event-driven microservices setup leveraging AWS Lambda, API Gateway, and DynamoDB.</p>
+              <a href="" target="_blank" class="social-link-btn">
+                <i class="fas fa-external-link-alt"></i> AWS Serverless
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blogs Section -->
+    <section id="blogs" class="blogs">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Blogs & Insights</h2>
+        </div>
+        
+        <div class="blogs-carousel-container">
+          <button class="carousel-nav prev-btn" id="carouselPrevBtn" aria-label="Previous Blog">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          
+          <div class="blogs-carousel" id="blogsCarousel">
+            <!-- Rendered dynamically by script.js -->
+          </div>
+          
+          <button class="carousel-nav next-btn" id="carouselNextBtn" aria-label="Next Blog">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+        
+        <div class="carousel-dots" id="carouselDots">
+          <!-- Rendered dynamically by script.js -->
+        </div>
+      </div>
+    </section>
+  </main>
 
   <!-- Footer -->
   <footer id="contact" class="footer">
     <div class="container">
       <div class="footer-content">
         <div class="footer-left">
-          <p>&copy; 2026 Bharath K. All rights reserved.</p>
+          <p id="copyrightText">&copy; 2026 Bharath K. All rights reserved.</p>
         </div>
 
-        <div class="social-links">
-          <h2>Feel free to reachout me ! </h2>
-          <a href="https://www.linkedin.com/4bharathk" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
-          <a href="mailto:4bharathk@gmail.com" class="social-link" target="_blank"><i class="fa fa-envelope"></i></a>
-          <a href="https://www.github.com/4bharathk" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+        <div class="social-links" id="socialLinksContainer">
+          <h2 id="reachoutMsg">Feel free to reachout me !</h2>
+          <a href="https://www.linkedin.com/in/4bharathk" class="social-link" target="_blank" id="socialLinkedin"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:4bharathk@gmail.com" class="social-link" target="_blank" id="socialEmail"><i class="fa fa-envelope"></i></a>
+          <a href="https://www.github.com/4bharathk" class="social-link" target="_blank" id="socialGithub"><i class="fab fa-github"></i></a>
         </div>
       </div>
     </div>
   </footer>
 
+  <script src="portfolio-data.js"></script>
   <script src="script.js?v=2"></script>
 </body>
 
