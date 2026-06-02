@@ -1,4 +1,16 @@
 // Smooth scrolling and navigation
+window.onscroll = () => {
+    btnscrollToTop.style.display =
+    window.scrollY > 300 ? 'block' : 'none';
+};
+
+btnscrollToTop.addEventListener('click', function () {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
+
 document.addEventListener('DOMContentLoaded', function() {
     // Mobile menu toggle
     const hamburger = document.getElementById('hamburger');

@@ -16,6 +16,22 @@ body {
   overflow-x: hidden;
 }
 
+#btnscrollToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: rgb(247, 245, 245);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: none;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
